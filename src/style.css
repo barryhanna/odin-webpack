@@ -8,3 +8,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+ul {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+li {
+  cursor: pointer;
+}
